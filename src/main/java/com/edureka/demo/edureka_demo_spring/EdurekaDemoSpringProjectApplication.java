@@ -15,11 +15,17 @@ public class EdurekaDemoSpringProjectApplication {
 	}
 	
 	@GetMapping("/")
-	private String hello() 
+	private String welcome() 
 	{
 		return String.format("<h1>this i s the welcome page</h1>");
 
 	}
 	
+	@GetMapping("/hello")
+	private String hello() 
+	{
+		return String.format("<h1>welcome to the devops world</h1>");
 
+	}
+	
 }

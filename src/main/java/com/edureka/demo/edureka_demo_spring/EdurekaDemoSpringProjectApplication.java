@@ -14,6 +14,7 @@ public class EdurekaDemoSpringProjectApplication {
 		SpringApplication.run(EdurekaDemoSpringProjectApplication.class, args);
 	}
 	
+	//code commite by c1
 	@GetMapping("/")
 	private String welcome() 
 	{
